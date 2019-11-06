@@ -43,7 +43,23 @@ callbacks take to arguments (`requests and responses `)
  install nodemon restarts the serve automatically whenever you save a file that the server uses.(changes)
  install nodemon npm ` npm install nodemon --save-dev`
  `--save-dev `is a flag
- Inorder to run you have to add t to a script part in the package.json file
+ Inorder to run you have to add t to a script part in the package.json file `"start:nodemon index.js"`
  Run `npm start` in the terminal to start.
+
+ *Downloaded postman
+ Routing
+ determining how an application responds to a client.
+ GET displays
+ POST sends data to the server from the form
+ PUT does the editing
+ DELETE deletes data
+
+ use postman to test your path.
+
+ Handling non-existing routes.
+ when someone types in a route that doesnt exist.
+ you create an errroe path with
+ `app.get("",function(req,res)=>{res.send("message of error")})`
+
 
 
