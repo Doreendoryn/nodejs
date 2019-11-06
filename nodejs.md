@@ -36,3 +36,14 @@ handling GET because we have READ
 we handle the get request with `app.get(path,callback)`
 callbacks take to arguments (`requests and responses `)
 
+ `6th\november\2019`
+ We replaced the key word function() with arrow functions =>
+ Run t  in the terminal and check for the output in chrome.
+ 
+ install nodemon restarts the serve automatically whenever you save a file that the server uses.(changes)
+ install nodemon npm ` npm install nodemon --save-dev`
+ `--save-dev `is a flag
+ Inorder to run you have to add t to a script part in the package.json file
+ Run `npm start` in the terminal to start.
+
+
